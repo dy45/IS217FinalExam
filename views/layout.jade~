@@ -5,7 +5,9 @@ html
     
     script(type='text/javascript', src='/javascripts/jQuery.js')
     script(type='text/javascript', src='/javascripts/main.js')
-    script(type='text/javascript', src='/javascripts/qunit-1.14.0.js')  
+    script(type='text/javascript', src='/javascripts/qunit-1.14.0.js')
+    script(type='text/javascript', src='/javascripts/xmlhttp.js')
+    
     script(type='text/javascript', src='/javascripts/qtest.js')
     
   body

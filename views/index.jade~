@@ -29,24 +29,27 @@ block content
        
     
     div(id='divMemory' class='config')
-      p(class='pDescription') Select Memory
+      p(class='pDescription') Select the Main Memory (RAM) for your system
       ul(id='ul-memory' class='list')
         li(class='')
           input(id='option-memory-8' class='option' type='radio' name='memory' value='0' checked='checked' )
-          span(id='option-memory-8-description' class='description') 8GB 
+          span(id='option-memory-8-description' class='description') 8GB 1600MHz DDR3L SDRAM (Included)
         li(class='')
           input(id='option-memory-16' class='option' type='radio' name='memory' value='200')
-          span(id='option-memory-16-description' class='description') 16GB(+200)
+          span(id='option-memory-16-description' class='description') 16GB 1600MHz DDR3L SDRAM (200)
     
     div(id='divHdd' class='config')
-      p(class='pDescription') Select Hard Drive
+      p(class='pDescription') Select the Hard Drive Capacity (HDD) for your system
       ul(id='ul-hdd' class='list')
         li(class='')
           input(id='option-hdd-128' class='option' type='radio' name='hdd' value='0' checked='checked')
-          span(id='option-hdd-128-description' class='description') 128GB 
+          span(id='option-hdd-128-description' class='description') 128GB SSD(Included)
         li(class='')
           input(id='option-hdd-256' class='option' type='radio' name='hdd' value='200')
-          span(id='option-hdd-256-description' class='description') 256GB(+200)
+          span(id='option-hdd-256-description' class='description') 256GB SSD(200)
 
-  h1#qunit-header QUnit Testing
-
+  h1#qunit-header QUnit Test
+  h2#qunit-bannder
+  div#qunit-testrunner-toolbar
+  h2#quit-userAgent
+  ol#qunit-tests
