@@ -4,7 +4,7 @@ block content
   h1= title
   p Welcome to #{title}
   h2#hHeading Saved System Configurations:
-  a(id='aNew' class='link' href='/') New Configuration
+  a(id='aNew' class='link' href='/') New Configurations
   br
   br
   div#divSavedList
